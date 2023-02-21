@@ -26,7 +26,7 @@ export function Header() {
                         <FontAwesomeIcon icon={faSearch} />
                     </button>
                     <li className='mr-2 px-[8px] py-1 rounded hover:bg-gray-600 transition cursor-not-allowed md:mr-4'>
-                        <FontAwesomeIcon icon={faUser} className='text-xl'/>
+                        <FontAwesomeIcon icon={faUser} onClick={toggleSearch} className='text-xl'/>
                     </li>
                     <button className='px-[6px] py-1 rounded hover:bg-gray-600 transition relative' onClick={toggleCart}>
                         <FontAwesomeIcon icon={faCartShopping} className='text-xl'/>
